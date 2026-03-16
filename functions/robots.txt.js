@@ -4,6 +4,7 @@ export async function onRequestGet(context) {
   const body = `User-agent: *
 Allow: /
 
+Sitemap: https://${host}/cat/01/cat.xml
 Sitemap: https://${host}/sitemap.xml
 Sitemap: https://${host}/feed.xml
 `;
